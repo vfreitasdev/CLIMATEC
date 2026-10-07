@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://climatecteresina.netlify.app/sitemap.xml

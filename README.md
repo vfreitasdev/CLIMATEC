@@ -1,33 +1,12 @@
-# ❄️ Climatec Serviços - Landing Page Profissional
+# Climatec — Refrigeração em Teresina
+Site estático em HTML, CSS e JavaScript. Não exige instalação ou build.
 
-Esta é a landing page oficial da **Climatec Serviços**, desenvolvida para destacar a autoridade de mais de 20 anos de experiência no mercado de refrigeração e manutenção de eletrodomésticos em Teresina-PI.
+## Prévia
+Execute `python -m http.server 8080` na pasta e abra http://localhost:8080.
 
-## 🚀 Sobre o Projeto
-O objetivo deste site é servir como um catálogo digital de alta conversão, permitindo que clientes visualizem serviços, garantias e entrem em contato diretamente via WhatsApp com apenas um clique.
+## Publicar no Netlify
+Publique a raiz contendo index.html e assets/. Em integração Git, o comando de build deve ficar vazio e a pasta de publicação deve ser `.`.
 
-### 🛠️ Especialidades Atendidas:
-* **Máquinas de Lavar** (Mecânica e Placas)
-* **Ar-Condicionado** (Limpeza e Instalação)
-* **Geladeiras e Freezers** (Motores e Recarga de Gás)
-
-## 💻 Tecnologias Utilizadas
-* **HTML5** - Estrutura semântica.
-* **CSS3** - Estilização personalizada com variáveis modernas.
-* **Bootstrap 5** - Responsividade para dispositivos móveis e desktop.
-* **Google Fonts** - Tipografia profissional (Inter e Oswald).
-* **Font Awesome** - Ícones intuitivos.
-
-## 🌟 Diferenciais do Código
-- **Selo de Experiência:** Destaque visual para os 20 anos de mercado.
-- **Tabela de Garantias:** Transparência total com o cliente.
-- **Botão Flutuante WhatsApp:** Link direto com mensagem pré-configurada.
-- **Galeria Real:** Integração visual de fotos reais dos serviços prestados.
-
-## 📞 Contato
-Caso queira saber mais sobre o serviço ou falar com o técnico:
-* **Técnico Responsável:** Climatec
-* **Telefone:** (86) 98825-2429
-* **Localização:** Teresina - PI
-
----
-*Desenvolvido para Climatec Serviços — Cuidado que você pode confiar.*
+## Conteúdo e manutenção
+index.html contém textos e links; assets/styles.css contém o visual; assets/main.js controla o menu móvel. FAQ e links funcionam sem JavaScript. Os links do WhatsApp preenchem uma mensagem que o cliente decide enviar.
+A ilustração de ar-condicionado é decorativa e feita em CSS. Contatos e logo foram preservados. Números, depoimentos, certificações e condições comerciais não confirmadas foram substituídos por informações sobre serviços. Confirme esses dados com o responsável antes de publicar novas promessas.
